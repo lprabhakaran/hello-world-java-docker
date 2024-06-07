@@ -14,7 +14,8 @@ public class IndexController {
     @GetMapping("/")
     public HashMap index() {
         logger.debug("request served");
-
+       var username = "test";
+        var password = "testpassword";
         return new HashMap<>() {{
             put("success", true);
             put("hello", "world");
