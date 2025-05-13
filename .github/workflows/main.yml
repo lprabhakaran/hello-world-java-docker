@@ -1,5 +1,4 @@
-
-            - name: Kubescape
+- name: Kubescape
   # You may pin to the exact commit or the version.
   # uses: kubescape/github-action@c91feb3b8dd145ff8a094f91d6836bba4abc4293
   uses: kubescape/github-action@v3.0.5
